@@ -1,0 +1,1146 @@
+@import "partials/colors";
+@import "essential";
+
+@media all and (max-width: 299px) {
+  .mdl-layout__container {
+    width: 300px;
+    height: 100%;
+    .mdl-layout__content {
+      width: 100%;
+      position: absolute;
+      top: 57px;
+      left: 0;
+      .recipe-cover {
+        width: 280px;
+        height: 160px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 150px;
+          line-height: 150px;
+          width: calc(100% - 10px);
+          padding: 5px;
+          font-size: 1.4em;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 280px;
+        margin: 0 auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 100%;
+        height: 168.75px;
+      }
+      .recipe-description {
+        width: 280px;
+        margin: 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 359px) {
+  .mdl-layout__container {
+    .mdl-layout__content {
+      width: 300px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 300px)/2);
+      .recipe-cover {
+        width: 280px;
+        height: 160px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 150px;
+          line-height: 150px;
+          width: calc(100% - 10px);
+          padding: 5px;
+          font-size: 1.4em;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 280px;
+        margin: 0 auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 280px;
+        height: 160px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 280px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 360px) and (max-width: 479px) {
+  .mdl-layout__container {
+    .mdl-layout__content {
+      width: 330px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 330px)/2);
+      .recipe-cover {
+        width: 330px;
+        height: 180px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 170px;
+          line-height: 170px;
+          width: calc(100% - 10px);
+          padding: 5px;
+          font-size: 1.5em;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 330px;
+        margin: 0 auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 330px;
+        height: 180px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 330px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 639px) {
+  .mdl-layout__container {
+    .mdl-layout__content {
+      width: 330px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 330px)/2);
+      .recipe-cover {
+        width: 330px;
+        height: 180px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 170px;
+          line-height: 170px;
+          width: calc(100% - 10px);
+          padding: 5px;
+          font-size: 1.5em;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 330px;
+        margin: 0 auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 330px;
+        height: 180px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 330px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.2em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 640px) and (max-width: 719px) {
+  .mdl-layout__container {
+    .mdl-layout__content {
+      width: 600px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 600px)/2);
+      .recipe-cover {
+        width: 600px;
+        height: 350px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 330px;
+          line-height: 330px;
+          width: calc(100% - 20px);
+          padding: 10px;
+          font-size: 2.3em;
+          font-weight: 300;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 600px;
+        margin: 10px auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 600px;
+        height: 340px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 600px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 720px) and (max-width: 839px) {
+  .mdl-layout__container {
+    .mdl-layout__content {
+      width: 660px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 660px)/2);
+      .recipe-cover {
+        width: 660px;
+        height: 370px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 330px;
+          line-height: 330px;
+          width: calc(100% - 20px);
+          padding: 10px;
+          font-size: 2.3em;
+          font-weight: 300;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 660px;
+        margin: 10px auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 660px;
+        height: 372px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 660px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 840px) and (max-width: 959px) {
+  .mdl-layout__container {
+    .mdl-layout__content {
+      width: 720px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 720px)/2);
+      .recipe-cover {
+        width: 720px;
+        height: 405px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 385px;
+          line-height: 385px;
+          width: calc(100% - 20px);
+          padding: 10px;
+          font-size: 2.6em;
+          font-weight: 300;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 720px;
+        margin: 10px auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 720px;
+        height: 405px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 720px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 960px) and (max-width: 1023px) {
+  .mdl-layout__container {
+    .mdl-layout__content {
+      width: 720px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 720px)/2);
+      .recipe-cover {
+        width: 720px;
+        height: 405px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 385px;
+          line-height: 385px;
+          width: calc(100% - 20px);
+          padding: 10px;
+          font-size: 2.6em;
+          font-weight: 300;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 720px;
+        margin: 10px auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 720px;
+        height: 405px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 720px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .mdl-layout__container {
+    .mobile-title {
+      display: none;
+    }
+    .mdl-layout__content {
+      width: 720px;
+      position: absolute;
+      top: 57px;
+      left: calc((100% - 720px)/2);
+      .recipe-cover {
+        width: 720px;
+        height: 405px;
+        margin: 20px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          height: 385px;
+          line-height: 385px;
+          width: calc(100% - 20px);
+          padding: 10px;
+          font-size: 2.6em;
+          font-weight: 300;
+          letter-spacing: 1px;
+          text-align: center;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 720px;
+        margin: 10px auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 720px;
+        height: 405px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 720px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.3em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  .mdl-layout__container {
+    .mdl-layout__header {
+      background-color: $green-700;
+      .mdl-layout-title {
+        svg path {
+          fill: $white;
+        }
+      }
+      nav.mdl-navigation a {
+        color: $white;
+
+        &.mdl-button {
+          color: $white;
+          background-color: $amber-800 !important;
+        }
+      }
+    }
+    .mobile-title {
+      display: none;
+    }
+    .mdl-layout__content {
+      width: 960px;
+      position: absolute;
+      top: 64px;
+      left: calc((100% - 960px)/2);
+      .recipe-cover {
+        width: 960px;
+        height: 425px;
+        margin: 40px auto 30px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          width: calc(100% - 80px);
+          bottom: 40px;
+          padding: 20px 40px;
+          font-size: 3.2em;
+          font-weight: 300;
+          letter-spacing: 2px;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 960px;
+        margin: 10px auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.4em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            font-size: 1.1em;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 960px;
+        height: 540px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 960px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.4em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          font-size: 1.1em;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .mdl-layout__container {
+    .background-container {
+      display: block;
+      position: fixed;
+      filter: blur(5px);
+    }
+    .mdl-layout__header {
+      background-color: $green-700;
+      .mdl-layout-title {
+        svg path {
+          fill: $white;
+        }
+      }
+      nav.mdl-navigation a {
+        color: $white;
+
+        &.mdl-button {
+          color: $white;
+          background-color: $amber-800 !important;
+        }
+      }
+    }
+    .mobile-title {
+      display: none;
+    }
+    .mdl-layout__content {
+      width: 1366px;
+      position: absolute;
+      top: 64px;
+      left: calc((100% - 1366px)/2);
+      background-color: $white;
+      .recipe-cover {
+        width: 960px;
+        height: 425px;
+        margin: 40px auto 30px auto;
+        position: relative;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        picture source, img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+        .fullscreen-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: transparentize($black, 0.5);
+        }
+        .recipe-title {
+          position: absolute;
+          width: calc(100% - 80px);
+          bottom: 40px;
+          padding: 20px 40px;
+          font-size: 3.2em;
+          font-weight: 300;
+          letter-spacing: 2px;
+          color: $white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .recipe-ingredients {
+        width: 960px;
+        margin: 10px auto 20px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.4em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+            font-size: 1.1em;
+            i.material-icons {
+              margin-right: 10px;
+              color: $amber-500;
+            }
+          }
+        }
+      }
+      iframe {
+        width: 960px;
+        height: 540px;
+        margin: 0 auto;
+      }
+      .recipe-description {
+        width: 960px;
+        margin: 40px auto;
+        .title {
+          color: $green-700;
+          font-size: 1.4em;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 5px;
+        }
+        .mdl-list {
+          margin: 0;
+          padding: 0;
+          font-size: 1.1em;
+          .mdl-list__item {
+            padding: 5px;
+            min-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

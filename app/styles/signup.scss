@@ -1,0 +1,654 @@
+@import "partials/colors";
+@import "essential";
+
+@media all and (max-width: 299px) {
+  .mdl-layout {
+    width: 300px;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 240px;
+        height: 460px;
+        padding: 20px;
+        position: absolute;
+        margin: 50px 10px 35px 10px;
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 359px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 240px;
+        height: 460px;
+        padding: 20px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 280px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 360px) and (max-width: 479px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 280px;
+        height: 460px;
+        padding: 20px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 320px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 639px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 640px) and (max-width: 719px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 720px) and (max-width: 839px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 840px) and (max-width: 959px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 960px) and (max-width: 1023px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: 50px auto 35px auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(5px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: calc((100vh - 500px)/2) auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .mdl-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    .mdl-layout__content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .blur-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url("../images/home/main-dish-800px.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        filter: blur(5px);
+      }
+      .signup-container {
+        width: 340px;
+        height: 460px;
+        padding: 20px 30px;
+        position: absolute;
+        margin: calc((100vh - 500px)/2) auto;
+        left: calc((100% - 400px)/2);
+        background-color: $white;
+        border-radius: 4px;
+        overflow: hidden;
+        .brand-logo {
+          width: 120px;
+          margin: 35px auto 20px auto;
+          display: block;
+        }
+        .signup-box {
+          .mdl-textfield {
+            width: 100%;
+          }
+        }
+        a {
+          color: $green-700;
+          text-align: center;
+          display: block;
+          &.mdl-button {
+            color: $white;
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+  }
+}
